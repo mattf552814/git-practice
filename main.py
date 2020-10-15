@@ -4,7 +4,7 @@ b = int(input('Second number: '))
 import turtle
 painter = turtle.Turtle()
 
-painter.fillcolor('red')
+painter.fillcolor(input('color: '))
 painter.begin_fill()
 
 for i in range(2):
